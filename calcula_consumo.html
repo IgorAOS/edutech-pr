@@ -1,0 +1,56 @@
+<meta charset= "UTF-8">
+
+<script>
+
+function pulaLinha() {
+	document.write("<br>");
+
+}
+
+function mostra(frase) {
+    document.write(frase);
+
+}
+
+function separaLinha() {
+    document.write("<hr>");
+ 
+}
+
+mostra("<h1>" + "<font color=red>" + "<center>" + "Álcool ou Gasolina?" + "</center>" + "</font>" + "</h1>");
+
+pulaLinha();
+
+mostra("<h3>" + "<i>" + "Primeiro Problema:" + "</i>" +"</h3>");
+
+mostra("<big>" + "Seu carro tem um tanque de 40 litros, com gasolina e usando todo o tanque você fez um caminho com gasolina de 480 quilômetros. Qual é o consumo de gasolina?" + "</big>");
+
+var tanque = 40;
+var caminhoComGasolina = 480;
+
+var consumoDeGasolina = "<b>" + (480/40) + "</b>";
+pulaLinha();
+separaLinha();
+pulaLinha();
+
+mostra("Resposta: Para cada litro de gasolina é rodado " + "<u>" + consumoDeGasolina + "</u>" + "<b>" + " quilômetros." + "</b>");
+pulaLinha();
+pulaLinha();
+pulaLinha();
+pulaLinha();
+pulaLinha();
+pulaLinha();
+
+mostra("<h3>" + "<i>" + "Segundo Problema:" + "</i>" + "</h3>");
+
+mostra("<big>" + "Com álcool, um tanque de 40 litros fez um caminho com álcool de 300 quilômetros. Qual é o consumo de álcool?" + "</big>");
+pulaLinha();
+separaLinha();
+pulaLinha();
+
+var caminhoComAlcool = 300;
+var consumoDeAlcool= "<b>" + (300/40) + "</b>"; 
+
+mostra("Resposta: Para cada litro de álcool é rodado " + "<u>" + consumoDeAlcool + "</u>" + "<b>" + " quilômetros." + "</b>");
+
+</script>
